@@ -76,3 +76,5 @@ working on multiple branches and merging them can make it complicated to underst
 
 If you want it to be clean to see in git graph the commits, go with rebase.
 But if you really want to know what's happening with every branch, use git merge
+
+466. Merge Conflict
