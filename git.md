@@ -67,3 +67,7 @@ let's focus on merge now.
 to use merge, you have to be on the main branch
 
 - git merge branchName
+
+465. Git rebase
+
+working on multiple branches and merging them can make it complicated to understand during checking the history. That's where rebase comes in.
