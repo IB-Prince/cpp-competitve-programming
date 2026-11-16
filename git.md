@@ -30,3 +30,7 @@ to create new branch
 to see all branches
 
 - git branch
+
+switch betwee branches
+
+- git checkout branchName / - git switch branchName
