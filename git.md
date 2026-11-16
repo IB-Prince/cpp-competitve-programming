@@ -57,3 +57,13 @@ it has a parent, has a checksum and multiple things.
 - git log --graph
 
 (installed extension - git graph)
+
+464. Git merge
+
+I want to merge two branch. basically there're two ways of doing it.
+1 - rebase
+2 - merge
+let's focus on merge now.
+to use merge, you have to be on the main branch
+
+- git merge branchName
