@@ -29,8 +29,11 @@ to create new branch
 
 to see all branches
 
-- git branch
+- git branch ( for seeing local branches)
+- git branch --all (for seeing local & remote branches)
 
 switch betwee branches
 
 - git checkout branchName / - git switch branchName
+
+- git switch - (to go to previous branch)
