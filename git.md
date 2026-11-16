@@ -43,3 +43,17 @@ switch betwee branches
 - git branch -d feature2 (branchName)
 
 462. Git branch pushing to remote repository
+
+- git push origin branchName
+
+463. Git branch how it works
+
+every time you do the commits by default it goes to main branch.
+git commit takes a snapshot of your files, gives a hexacode for commit and a pointer.
+About the pointer: - git log
+shows (HEAD -> (to which branch. it points to your commits))
+it has a parent, has a checksum and multiple things.
+
+- git log --graph
+
+(installed extension - git graph)
