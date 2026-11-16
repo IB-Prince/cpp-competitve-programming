@@ -41,3 +41,5 @@ switch betwee branches
 461. Git delete branch
 
 - git branch -d feature2 (branchName)
+
+462. Git branch pushing to remote repository
