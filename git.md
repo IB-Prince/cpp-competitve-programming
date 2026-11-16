@@ -25,7 +25,7 @@ git checkout feature1
 
 to create new branch
 
-- git checkout -b feature1
+- git checkout -b feature1 / - git switch -c branchName / - git switch --create branchName
 
 to see all branches
 
