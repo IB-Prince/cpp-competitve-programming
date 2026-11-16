@@ -37,3 +37,7 @@ switch betwee branches
 - git checkout branchName / - git switch branchName
 
 - git switch - (to go to previous branch)
+
+461. Git delete branch
+
+- git branch -d feature2 (branchName)
