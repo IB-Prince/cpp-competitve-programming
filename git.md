@@ -73,3 +73,6 @@ to use merge, you have to be on the main branch
 working on multiple branches and merging them can make it complicated to understand during checking the history. That's where rebase comes in.
 
 - git rebase feature3 (branchName)
+
+If you want it to be clean to see in git graph the commits, go with rebase.
+But if you really want to know what's happening with every branch, use git merge
