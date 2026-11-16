@@ -13,3 +13,20 @@ upload it including the tags on github repo:
 git push origin v1.0
 
 # Lightweight Tagging
+
+460. Git branch create
+     There are two options for branching
+     1 - checkout
+     new 2 - switch
+
+both are ok. I think switch is much better.
+
+git checkout feature1
+
+to create new branch
+
+- git checkout -b feature1
+
+to see all branches
+
+- git branch
