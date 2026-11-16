@@ -78,3 +78,13 @@ If you want it to be clean to see in git graph the commits, go with rebase.
 But if you really want to know what's happening with every branch, use git merge
 
 466. Merge Conflict
+
+- git merge feature3
+
+-> conflict is caught when modified same file in two different branches.
+You can check the difference by - git diff
+
+just delete the things you need to erase to avoid conflict, save it, then add and commit.
+vola! the merging is complete.
+
+-> now, let's say, the remote repository has different codes, your local repo has different code in the same file. in that case, add, commit and then try to pull the code from remote github repo, you'll get a conflict.
