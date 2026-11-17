@@ -112,3 +112,11 @@ resolve it, add, commit.
      want it to used by everyone, fork the project, give project name, create fork,
      now the entire project will be available in your repository.
      clone it to local machine -> make changes -> push it
+
+470. Git Pull Request
+     fork a project that you want to modify and apply to that main project which is owned by another person.fork -> name_repository -> clone to local machine -> make changes
+     git status, git add ., git commit -m "commit message", git push origin main,
+     it's updated on your repository. now, if you want to apply it on the real project,
+     go to that repository -> Pull requests -> create a pull request -> add your comment -> create pull request (the request has been sent)
+
+     Now, in the real project account, review the pull request accept it by Merge pull request -> confirm merge -> changes done. pull request is closed now.
