@@ -88,3 +88,11 @@ just delete the things you need to erase to avoid conflict, save it, then add an
 vola! the merging is complete.
 
 -> now, let's say, the remote repository has different codes, your local repo has different code in the same file. in that case, add, commit and then try to pull the code from remote github repo, you'll get a conflict.
+resolve it, add, commit.
+
+467. Git time travel
+     you can see different commits checking git log. and if you want to
+     go back to a particular commit - copy the commit id, git checkout paste_commit_id
+     let's say you're working on a product, you want to make a light version of it by changing that best commit you had, name it lite-version:
+     git checkout -b lite-version
+     you'll see that as different branch now. (git branch)
