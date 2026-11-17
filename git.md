@@ -106,3 +106,9 @@ resolve it, add, commit.
      git stash
      git stash list - give you the stash list
      git stash apply - give you the code to continue
+
+469. Git fork
+     git repositories own by others, if you want to work on them make some changes,
+     want it to used by everyone, fork the project, give project name, create fork,
+     now the entire project will be available in your repository.
+     clone it to local machine -> make changes -> push it
