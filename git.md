@@ -96,3 +96,13 @@ resolve it, add, commit.
      let's say you're working on a product, you want to make a light version of it by changing that best commit you had, name it lite-version:
      git checkout -b lite-version
      you'll see that as different branch now. (git branch)
+     make your changes, do git add, commit, then git push origin lite-version
+     now, you'll see a new branch lite-version with the modification.
+
+468. Git stash
+     I'm working on a feature that'd take sometimes let's say - 2 weeks.
+     And in the middle, another bug from previous work was identified and need to fix
+     right now. In that case if you try to switch to that branch it'll tell you to commit or stash. git stash saves the work without commiting. so, whenever you're comming back to this branch, you can continue working on it.
+     git stash
+     git stash list - give you the stash list
+     git stash apply - give you the code to continue
